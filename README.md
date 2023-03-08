@@ -1,5 +1,20 @@
 # Toy Robot puzzle
 
+Requirements find below
+
+# How to run the project
+
+- `npm install`
+- `npm run start` for the dev start using nodemon
+- `npm run build` to build and deploy
+- `npm run test` to run tests using jest
+
+# Notes
+
+- Need to write all unit tests, I implemented only one usecase and wrote titles for other possible tests, so will need to complete as per the needs
+
+# Requirements
+
 The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units. There are no other obstructions on the table surface. The robot is free to roam around the surface of the table. Any movement that would result in the robot falling from the table is prevented, however further valid movement commands are still allowed.
 
 The application is a command-line application that accepts commands from the following commands are valid:
@@ -21,14 +36,3 @@ Here are some rules for these commands:
 - REPORT announces the X,Y and F of the robot.
 
 All commands must be in uppercase, all lower and mixed case commands will be ignored.
-
-# How to run the project
-
-- `npm install`
-- `npm run start` for the dev start using nodemon
-- `npm run build` to build and deploy
-- `npm run test` to run tests using jest
-
-# Notes
-
-- Need to write all unit tests, I implemented only one usecase and wrote titles for other possible tests, so will need to complete as per the needs
